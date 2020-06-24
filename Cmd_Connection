@@ -5,19 +5,26 @@ Go to command prompt, run `sqlplus`.
 Now oracle databse have some pre-defined tables on which you can work on.
 
 To unlock those tables, use following commands:
+
     1. Login as db admin:
           conn sys as sysdba
+
     2. Provide the password which you used at installation time:
           *******
+
     3. Unlock hr account( already available in oracle databse):
           alter user hr account unlock;
+
     4. Change the password of hr account to hr:
           alter user hr identified by hr;
+
     5. Connect through hr account
           connect
           Enter user name: hr
           Enter password: hr
           
+
+
 -------> connected
     
     
